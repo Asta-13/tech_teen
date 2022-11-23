@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>index</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../zurag/logo.png">
+</head>
+
+<body class="container">
+    <header>
+        <center>
+            <h1 class="h1">Автомашин үйлдвэрлэгч компаниудийн товч танилцуулга</h1>
+            <p>Хакатон 9-р баг</p>
+        </center>
+        
+    </header>
+
+    <button onclick="abc()">Menu</button>
+    <button class="back" onclick="abc()"><a href="../project/about.html">About</a></button>
+    <div class="home" id="test">
+        <div class="contentbar">
+            <h4>
+                <center><a href="Toyota.html">Toyota</a></center>
+            </h4>
+            <img src="../zurag/Toyota.png" width="100px" , height="100px">
+        </div>
+        <div class="contentbar">
+            <h4>
+                <center><a href="mitsubishi.html"> mitsubishi</a></center>
+            </h4>
+            <img src="../zurag/mitsubishi.png" width="100px" , height="100px">
+        </div>
+        <div class="contentbar">
+            <h4>
+                <center><a href="bmw.html">bmw</center></a>
+            </h4>
+            <img src="../zurag/bmw.png" width="100px" , height="100px">
+        </div>
+    </div>
+    <div class="home1">
+        <div class="sidebar">
+            <h4>
+                <center><a href="mercedes.html">Mercedes</center></a>
+            </h4>
+            <img src="../zurag/Mercedes.png" width="100px" , height="100px">
+        </div>
+        <div class="sidebar">
+            <h4>
+                <center><a href="audi.html">audi</center></a>
+            </h4>
+            <img src="../zurag/audi.png" width="100px" , height="100px">
+        </div>
+    </div>
+    <script>
+        var x = document.querySelector(".home")
+        var y = document.querySelector(".home1")
+        function abc() {
+            if (x.className == "home") x.className = "cla"
+            else x.className = "home"
+            if (y.className == "home1") y.className = "cla1"
+            else y.className = "home1"
+            // var currentColor = document.getElementById("test").style.visibility="hidden";
+            // var currentColor = document.getElementById("test1").style.backgroundColor="red";
+        }
+    </script>
+</body>
+<footer class="margin">
+    <a>"powered by"</a>
+</footer>
+
+</html>

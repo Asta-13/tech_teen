@@ -1,0 +1,186 @@
+.margin {
+    margin: 0;
+    margin-right: 0;
+
+}
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.container {
+    background-image: url(C:/Users/User/Desktop/hackathon/zurag/wallpa.jpg);
+    background-size: cover;
+}
+.home {
+    display: flex;
+    visibility: hidden;
+
+}
+
+.home1 {
+    display: flex;
+    visibility: hidden;
+}
+
+.cla {
+    visibility: visible;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(255, 255, 255);
+    backdrop-filter: sepia(90%); */
+
+}
+
+.cla1 {
+    visibility: visible;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgb(251, 251, 251); */
+
+}
+
+.contentbar {
+    /* background-color: #cab9b95e;
+    border: 2px solid #30a5d3;
+    border-radius: 1px; */
+    padding: 5px;
+
+}
+
+.sidebar {
+    /* background-color: #cab9b95e;
+    border: 2px solid #30a5d3;
+    border-radius: 1px; */
+    padding: 5px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+    padding: 2rem 0;
+    background: #18626e57;
+    margin-top: 20%;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+    padding: 2rem 0;
+    background: #18d6f457;
+
+}
+.h1{
+    color: rgb(30, 21, 21);
+    font-style: oblique;
+}
+-------------------------------------------------------------------------------
+button {
+    background-color: #4CAF50;
+}
+.back{
+    background-color: aliceblue;
+}
+-------------------------------------------------------------------
+.toyota {
+    font-size: large;
+    font-style: italic;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.conten {
+    position: relative;
+    top: 100vh;
+    z-index: 2;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+.merc {
+    position: relative;
+    top: 100vh;
+    z-index: 2;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+#test {
+    margin-bottom: 60px;
+}
+
+/* uur css */
+
+.background {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+    color: white;
+
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+/* index iin css uud */
+form{
+    background-color: #eee;
+    width: 370px;
+    padding: 20px;
+    border: 1px solid #8c8c8c;
+}
+label{
+    display: block;
+    cursor: pointer;
+
+}
+input#sender,
+textarea{
+    width: 300px;
+    border: 1px solid #8c8c8c;
+    margin-bottom: 1em;
+}
+textarea{
+    height: 7em;
+
+}
+input:focus,
+textarea:focus{
+    background-color: #8c8c8c8c;
+}
+.register{
+    background-image: url(../zurag/reg.png);
+    background-size: cover;
+}
+.reg{
+    margin-left: 60%;
+    margin-top: 15%;
+}
